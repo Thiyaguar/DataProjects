@@ -1,9 +1,9 @@
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions._
-object myDataProject {
+object DadaFile {
 
   def main(args:Array[String]):Unit={
-    val q = 10;
+    val q = 10
     print(q)
     print("hello World")
     val spark = SparkSession.builder()
